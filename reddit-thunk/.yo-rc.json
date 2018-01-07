@@ -1,0 +1,9 @@
+{
+  "generator-react-webpack": {
+    "appName": "reddit-thunk",
+    "style": "less",
+    "cssmodules": true,
+    "postcss": false,
+    "generatedWithVersion": 4
+  }
+}

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Hacker News</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="/public/style/news.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="news-view view">
+            {% for item in list %}
+            <div class="item">
+                 {{ helper.relativeTime(item.time) }} <a href="{{ item.url }}">{{ item.title }}</a>
+            </div>
+            {% endfor %}
+        </div>
+    </body>
+</html>
